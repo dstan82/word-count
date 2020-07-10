@@ -1,3 +1,5 @@
-#First Django Project :)#
+# First Django Project :)
 
-##Work in progress...##
+## Work in progress...
+
+### Simple website that count the word in a given text
