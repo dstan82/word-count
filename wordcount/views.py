@@ -1,8 +1,8 @@
 from django.http import HttpResponse
-
+from django.shortcuts import render
 
 def homepage(request):
-    return HttpResponse('Hello')
+    return render(request, 'home.html', {'hithere':'this is a dict'})
 
 
 def contact(request):
